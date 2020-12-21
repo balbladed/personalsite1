@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Контактні дані</title>
+    <link rel="stylesheet" href="/form.php">
+    <link rel="stylesheet" href="/formsend.js">
+</head>
+<body>
+    <h1>Контактні дані:</h1>
+    <br>
+    <strong><p>Адреса:</p></strong>
+    <p>Вулиця Закревського 45 А, квартира 97.</p>
+    <br>
+    <strong><p>Номер телефону:</p></strong>
+    <p>+380987081129</p>
+    <p>+380634451166</p>
+
+    <div>
+        <table>
+            <form method="post" action="form.php" name="contact_form"
+            action="contact-form-handler.php">
+
+            <tr>
+                <td>
+                    Your Name:
+                    <input type="text" name="name">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Your Address:
+                    <input type="text" name="email">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Your Message:
+                    <textarea name="message"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="submit" value="Submit">
+                </td>
+            </tr>
+            
+            </form>
+        </table>      
+            </form>
+    </div>
+</body>
+</html>
+
